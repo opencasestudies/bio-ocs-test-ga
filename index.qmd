@@ -1,0 +1,59 @@
+---
+title: "**Biomedical Open Case Studies: {Title}**"
+---
+
+<!--
+  Update the various qmd documents below with each component of a Bio-OCS case study.
+  Besides filling in the title in the header of this document, no other changes should be necessary within this file.
+  You may chose to remove the data exploration step if it's not necessary.
+-->
+
+{{< include _main_image.qmd >}}
+
+{{< include _ocs_frontmatter.qmd >}}
+
+{{< include _cite.qmd >}}
+
+{{< include _motivation.qmd >}}
+
+{{< include _main_question.qmd >}}
+
+{{< include _los.qmd >}}
+
+{{< include _packages.qmd >}}
+
+{{< include _context.qmd >}}
+
+{{< include _data_description.qmd >}}
+
+{{< include _limitations.qmd >}}
+
+{{< include _bioethics.qmd >}}
+
+{{< include _data_import.qmd >}}
+
+<!--
+  Not all case studies will require a data exploration section
+-->
+{{< include _data_exploration.qmd >}}
+
+{{< include _data_wrangling.qmd >}}
+
+{{< include _data_visualization.qmd >}}
+
+{{< include _data_analysis.qmd >}}
+
+{{< include _summary.qmd >}}
+
+{{< include _suggested_hw.qmd >}}
+
+{{< include _additional_info.qmd >}}
+
+## **Session Info**
+***
+
+```{r}
+devtools::session_info()
+```
+
+{{< include _acknowledgements.qmd >}}
