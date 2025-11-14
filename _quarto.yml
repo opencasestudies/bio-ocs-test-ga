@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Biomedical Open Case Studies"
+  navbar:
+    search: true
+  sidebar:
+    logo-href: "https://www.opencasestudies.org/"
+    logo: "img/Bio-OCS_Logo.png"
+    foreground: "#1B365D"
+  page-footer:
+    left: |
+      This book was built with <a href="https://quarto.org/" style="color: #0000FF;">Quarto</a> using
+      <a href="https://github.com/opencasestudies/ocs-template-quarto" style="color: #0000FF;">OTTR</a>.
+    center: |
+      All illustrations <a href="https://creativecommons.org/licenses/by/4.0/" style="color: #0000FF;">CC BY 4.0. </a>
+      <br>
+      All other materials <a href= "https://creativecommons.org/licenses/by/4.0/" style="color: #0000FF;"> CC BY 4.0 </a> unless noted otherwise.
+    right:
+      - icon: github
+        href: https://github.com/opencasestudies/
+
+brand: _brand.yml
+format:
+  html:
+    grid:
+       sidebar-width: 260px
+    theme: cosmo
+    css: styles.css
+    sidebar: true
+    toc: true
+    toc-location: left
+    code-tools: true
+    code-copy: true
+    license: "CC BY 4.0"
