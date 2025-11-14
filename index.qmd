@@ -1,5 +1,5 @@
 ---
-title: "**Biomedical Open Case Studies: {Title}**"
+title: "**Biomedical Open Case Studies: Test Case Study**"
 include-sections:
   stat-los: false
   data-import: true
